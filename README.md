@@ -13,5 +13,5 @@ Estoy construyendo mi base técnica en las herramientas clave del sector:
 *(Aquí iré compartiendo los proyectos que realice durante mi formación y mis prácticas personales)*
 
 ### 📬 Contacto
-*   LinkedIn: [Tu link aquí]
+*   LinkedIn: www.linkedin.com/in/valentin-mencuchi
 *   Email: analytics.valentin.mencuchi@gmail.com
