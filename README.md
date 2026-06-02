@@ -17,6 +17,5 @@ Este proyecto se centra en la gestión de datos de inventario con inconsistencia
 
 ## 📈 Visualización
 Se generó un gráfico de barras que permite visualizar rápidamente el estado del stock por producto.
-
 ---
 *Proyecto desarrollado como parte de mi formación en Análisis de Datos.*
