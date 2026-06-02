@@ -10,7 +10,7 @@ Estoy construyendo mi base técnica en las herramientas clave del sector:
 *   **Herramientas:** Excel Avanzado y control de versiones con Git/GitHub.
 
 ### 📈 Proyectos
-- [Análisis y Limpieza de Inventario](https://gitgub.com/Valentin-Data/Valentin-Data.github.io/blob/main/02_Data_Cleaning/README_Limpieza.md)
+- [Análisis y Limpieza de Inventario](https://github.com/Valentin-Data/Valentin-Data.gitgub.io/blob/master/02_Data_Cleaning/README_Limpieza.md)
 - [Otros Proyectos](proyectos/README_Proyectos.md)
 
 ### 📬 Contacto
