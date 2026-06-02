@@ -10,7 +10,7 @@ Estoy construyendo mi base técnica en las herramientas clave del sector:
 *   **Herramientas:** Excel Avanzado y control de versiones con Git/GitHub.
 
 ### 📈 Proyectos
-*(Aquí iré compartiendo los proyectos que realice durante mi formación y mis prácticas personales)*
+- [**Análisis y Limpieza de Inventario**](02_Data_Cleaning/README.md): Proyecto de limpieza de datos con Pandas, imputación de valores faltantes y visualización de stock.
 
 ### 📬 Contacto
 *   LinkedIn: www.linkedin.com/in/valentin-mencuchi
