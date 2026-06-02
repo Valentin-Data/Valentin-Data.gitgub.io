@@ -1,7 +1,9 @@
-Producto,Precio,Stock
-Laptop,1000,5
-Mouse,50,
-Teclado,80,15
-Monitor,,10
-Auriculares,150,8
-Laptop,1000,5
+Producto,Precio,Fecha,Stock
+Laptop,$1200,2026-01-01,5
+Mouse,$50,2026-01-02,12
+Teclado,$80,2026-01-02,15
+Monitor,$300,2026-01-03,8
+Mouse,$50,2026-01-02,12
+Auriculares,$150,01/03/2026,10
+Laptop,$1200,2026-01-01,
+Monitor,,2026-01-04,5
