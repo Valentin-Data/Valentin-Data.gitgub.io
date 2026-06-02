@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Análisis de Datos de Inventario: Limpieza y Optimización
 
 ## 📊 Descripción del Proyecto
