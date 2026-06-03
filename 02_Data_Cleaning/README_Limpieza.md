@@ -1,3 +1,4 @@
+---
 layout: default
 stylesheet: /assets/css/style.css
 ---
