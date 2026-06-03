@@ -29,3 +29,8 @@ footer, .site-footer, .site-header {
     border-bottom: 2px solid #00f2ff;
     margin-bottom: 30px;
 }
+
+/* Ocultar el encabezado redundante del tema */
+.page-header {
+    display: none !important;
+}
