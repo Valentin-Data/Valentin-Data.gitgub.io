@@ -44,3 +44,7 @@ footer, .site-footer, .site-header {
 body > p:contains("div>"), body > div:contains("div>") {
     display: none !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
