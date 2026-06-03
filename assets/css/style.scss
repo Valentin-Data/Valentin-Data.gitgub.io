@@ -16,3 +16,33 @@ body {
 body, h1, h2, h3, p, li {
     color: #e0e0e0 !important;
 }
+/* Definir color primordial (un Azul Cian llamativo) */
+:root {
+    --primordial: #00f2ff;
+}
+
+/* Estilo para el menú */
+.nav-menu {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.nav-menu a {
+    color: var(--primordial) !important;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Estilo para el Encabezado Hero */
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 2px solid var(--primordial);
+}
+
+.hero-section h1 {
+    color: var(--primordial) !important;
+    font-size: 3rem;
+}
