@@ -21,6 +21,11 @@ footer, .site-footer, .site-header {
 .hero-section {
     text-align: center;
     padding: 20px 0 20px 0;
+
+/* Ocultar el encabezado automático del tema Minimal */
+.page-header {
+    display: none !important;
+}
     border-bottom: 2px solid #00f2ff;
     margin-bottom: 30px;
 }
