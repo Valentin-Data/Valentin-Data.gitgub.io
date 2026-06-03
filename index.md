@@ -5,9 +5,9 @@ layout: default
 <div class="hero-section">
   <h1>🚀 Valentín | Data Analytics</h1>
   <nav style="text-align: center; margin: 20px 0;">
-    <a href="#acera-de-mi">Acerca de mi</a>
-    <a href="#proyectos">Proyectos</a>a>
-    <a href="#contacto">Contacto</a>a>
+    <a href="#acera-de-mi">Acerca de mi</a> .
+    <a href="#proyectos">Proyectos</a> .
+    <a href="#contacto">Contacto</a>
   </nav>
   <p>Especialista en formación en Análisis de Datos</p>
 </div>
