@@ -1,3 +1,4 @@
+[Acerca de mi](#acerca-de-mi) | [Proyectos](#proyectos) | [Contacto](#contacto)
 ---
 layout: default
 ---
