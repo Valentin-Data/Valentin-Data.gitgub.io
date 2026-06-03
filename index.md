@@ -7,14 +7,6 @@ layout: default
   <p>Especialista en formación en Análisis de Datos</p>
 </div>
 
-<nav class="nav-menu">
-  <a href="#acerca-de-mi">Acerca de mí</a> | 
-  <a href="#proyectos">Proyectos</a> | 
-  <a href="#contacto">Contacto</a>
-</nav>
-
-<hr>
-
 ## Acerca de mi <a id="acerca-de-mi"></a>
 Soy un profesional en formación apacionado por el mundo de los datos, enfocado en desarrollar habilidades sólidas para transformar informacion bruta en soluciones estratégicas. Cuento con una base técnica de 3 años cursando la carrera de Ingenieria en Sistemas, lo que me ha proporcionado una mentalidad analítica y estructurada para la resolución de problemas.
 
