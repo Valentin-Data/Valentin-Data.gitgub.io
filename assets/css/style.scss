@@ -55,12 +55,13 @@ body > div:contains("div>") {
 
 /* --- FONDO DINÁMICO (VIDEO) --- */
 #background-video {
-  position: fixed;
+  position: fixed; /* Esto hace que se quede quieto aunque hagas scroll */
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1; 
+  z-index: -1;
+  object-fit: cover; /* Esto evita que el video se estire raro */
 }
 
 /* El filtro oscuro para que el texto resalte */
