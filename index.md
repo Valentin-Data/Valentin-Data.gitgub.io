@@ -9,10 +9,12 @@ layout: default
   </div>
   
   <nav style="text-align: center; margin: 20px 0;">
-    <a href="#acerca-de-mi.html">Acerca de mi</a>
-    <a href="#proyectos.html">Proyectos</a>
-    <a href="#contacto.html">Contacto</a>
-  </nav>
+  <a href="acerca-de-mi.html">Acerca de mí</a>
+  <span style="color: #00f2ff;"> | </span>
+  <a href="proyectos.html">Proyectos</a>
+  <span style="color: #00f2ff;"> | </span>
+  <a href="contacto.html">Contacto</a>
+</nav>
   
   <p>Especialista en formación en Análisis de Datos</p>
 </div>
