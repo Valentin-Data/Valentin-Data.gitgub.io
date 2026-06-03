@@ -1,18 +1,14 @@
 ---
 ---
-@import "{{ pages-themes/minimal@v0.2.0 }}";
+---
+---
+@import "minimal";
 
-/* Eliminar las líneas grises divisorias */
-hr { 
-    display: none !important; 
-}
+/* Eliminar líneas divisorias */
+hr { display: none !important; }
 
 /* Forzar modo oscuro */
 body {
     background-color: #0b0e14 !important;
-    color: #e0e0e0 !important;
+    color: #ffffff !important;
 }
-
-/* Ajustar los títulos y enlaces */
-h1, h2, h3 { color: #ffffff !important; }
-a { color: #58a6ff !important; }
