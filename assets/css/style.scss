@@ -34,15 +34,20 @@ body, h1, h2, h3, p, li {
     text-decoration: none;
     margin: 0 15px;
 }
-
-/* Estilo para el Encabezado Hero */
+/* Estilo para el Encabezado Hero Ajustado */
 .hero-section {
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0 10px 0; /* Reducimos el espacio vertical: 20 arriba, 10 abajo */
     border-bottom: 2px solid var(--primordial);
 }
 
 .hero-section h1 {
     color: var(--primordial) !important;
-    font-size: 3rem;
+    font-size: 2.2rem; /* Lo hacemos un poco más chico para que no salte de renglón */
+    margin-bottom: 5px; /* Menos espacio entre título y subtítulo */
+}
+
+.hero-section p {
+    font-size: 1.1rem; /* Subtítulo ajustado */
+    margin-top: 0;
 }
