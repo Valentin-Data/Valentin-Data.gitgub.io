@@ -1,6 +1,5 @@
 ---
 layout: default
-stylesheet: /assets/css/style.css
 ---
 # Análisis de Datos de Inventario: Limpieza y Optimización
 
