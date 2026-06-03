@@ -4,7 +4,7 @@ layout: default
 
 <div class="hero-section">
   <h1>🚀 Valentín | Data Analytics</h1>
-  <p>Ingeniería en Sistemas | Especialista en formación en Análisis de Datos</p>
+  <p>Especialista en formación en Análisis de Datos</p>
 </div>
 
 <nav class="nav-menu">
