@@ -1,9 +1,8 @@
----
 layout: default
 stylesheet: /assets/css/style.css
-----
+
 # Análisis de Datos de Inventario: Limpieza y Optimización
-...
+
 ## 📊 Descripción del Proyecto
 Este proyecto se centra en la gestión de datos de inventario con inconsistencias. El objetivo fue transformar un dataset "sucio" en información confiable y estructurada, permitiendo realizar un análisis de stock preciso para la toma de decisiones.
 
