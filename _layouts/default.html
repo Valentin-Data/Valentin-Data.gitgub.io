@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="{{ '/assets/video/videoplayback.mp4' | absolute_url }}" type="video/mp4">
+    </video>
+
+    <main>
+        {{ content }}
+    </main>
+
+</body>
+</html>
