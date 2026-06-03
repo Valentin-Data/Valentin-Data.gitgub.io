@@ -21,14 +21,14 @@ Soy un profesional en formación apacionado por el mundo de los datos, enfocado 
 
 Actualmente, estoy profundizando mis conocimientos en Data Analytics, motivando por el desafio de extraer valor a partir de datos complejos, la capacidad de automatizar procesos mediante código y el impacto positivo que tiene una visualización clara en la toma de decisiones informadas.
 
-<div id="proyectos"></div>div>
+<div id="proyectos"></div>
 ## Proyectos
 A continuación, presento los proyectos en los que he estado trabajando para aplicar mis habilidades técnicas:
 
 *  **Análisis y Limpieza de Inventario**: Transformación de un dataset con inconsistencia en información confiable y estructurada mediante Python (pandas, matplotlib), permitiendo un análisis de stock preciso.
 *  **Otros Proyectos**: [Próximamente] - Estoy trabajando en nuevas implementaciones y análisis de datos.
 
-<div id="contacto"></div>div>
+<div id="contacto"></div>
 ## Contacto
 ¡Me encantaría conectar contigo! Puedes encontrarme o contactarme a través de los siguientes medios:
 
