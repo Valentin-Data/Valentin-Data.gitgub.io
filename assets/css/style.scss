@@ -1,6 +1,6 @@
 ---
 ---
-@import "{{ site-remote/theme }}";
+@import "{{ pages-themes/minimal@v0.2.0 }}";
 
 /* Eliminar las líneas grises divisorias */
 hr { 
