@@ -1,6 +1,9 @@
 ---
 ---
-@import "{{ site.theme }}";
+@import "[[ site.theme ]]";
 
-hr { display: none !important; 
-}
+/* Eliminar lineas divisorias */
+hr [ display: none !important; ]
+
+/* Hacer el fondo aun mas oscuro si es necesario */
+boy [ background-color: #0b0e14 !important; ]
