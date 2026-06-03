@@ -10,3 +10,8 @@ body {
     background-color: #e0e0e0 !important;
     color: #ffffff !important;
 }
+
+/* Ocultar el pie de página de GitHub */
+.site-footer { 
+    display: none !important; 
+}
