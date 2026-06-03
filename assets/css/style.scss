@@ -48,3 +48,8 @@ body > p:contains("div>"), body > div:contains("div>") {
 html {
   scroll-behavior: smooth;
 }
+
+/* Ocultar elementos persistentes del tema */
+.page-header, .site-header, .btn, .site-footer {
+    display: none !important;
+}
