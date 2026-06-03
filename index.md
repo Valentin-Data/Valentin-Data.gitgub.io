@@ -9,9 +9,9 @@ layout: default
   </div>
   
   <nav style="text-align: center; margin: 20px 0;">
-    <a href="#acerca-de-mi">Acerca de mi</a> .
-    <a href="#proyectos">Proyectos</a> .
-    <a href="#contacto">Contacto</a>
+    <a href="#acerca-de-mi.html">Acerca de mi</a>
+    <a href="#proyectos.html">Proyectos</a>
+    <a href="#contacto.html">Contacto</a>
   </nav>
   
   <p>Especialista en formación en Análisis de Datos</p>
