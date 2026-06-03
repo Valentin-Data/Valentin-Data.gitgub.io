@@ -1,2 +1,5 @@
-hr { display: none; }
-    .page-header { background-image: none; background-color: #0b0e14; }
+---
+---
+@import "{{ site.theme }}";
+
+hr { display: none !important; }
