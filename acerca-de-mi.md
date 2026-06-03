@@ -2,6 +2,8 @@
 layout: default
 ---
 
+### Mi trayectoria
+
 <!-- Menú de navegación común -->
 <nav style="text-align: center; margin-bottom: 40px; border-bottom: 1px solid #00f2ff; padding-bottom: 20px;">
   <a href="index.html" style="font-weight: bold; color: #00f2ff;">⬅ Volver al Inicio</a>
