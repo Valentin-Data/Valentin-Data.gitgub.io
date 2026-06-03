@@ -7,10 +7,17 @@ layout: default
   <a href="index.html" style="font-weight: bold; color: #00f2ff;">⬅ Volver al Inicio</a>
 </nav>
 
-<!-- Aquí va tu contenido actual -->
-<div id="proyectos"></div>
-## Proyectos
-A continuación, presento los proyectos en los que he estado trabajando para aplicar mis habilidades técnicas:
+<!-- Título de la sección -->
+<h2 style="color: #00f2ff; text-align: center;">Mis Proyectos</h2>
 
-*  **Análisis y Limpieza de Inventario**: Transformación de un dataset con inconsistencia en información confiable y estructurada mediante Python (pandas, matplotlib), permitiendo un análisis de stock preciso.
-*  **Otros Proyectos**: [Próximamente] - Estoy trabajando en nuevas implementaciones y análisis de datos.
+<!-- Tarjeta del Proyecto -->
+<div style="border: 1px solid #00f2ff; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">Análisis y Limpieza de Inventario</h3>
+  <p>Transformación de un dataset con inconsistencias en información confiable y estructurada mediante Python (pandas, matplotlib), permitiendo un análisis de stock preciso.</p>
+</div>
+
+<!-- Tarjeta de próximos proyectos -->
+<div style="border: 1px solid #555; padding: 20px; border-radius: 10px; color: #888;">
+  <h3>Otros Proyectos</h3>
+  <p>[Próximamente] - Estoy trabajando en nuevas implementaciones y análisis de datos.</p>
+</div>
