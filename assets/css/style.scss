@@ -1,55 +1,46 @@
 ---
 ---
-/* Forzamos que se ignore el CSS del tema Minimal */
+
+/* --- CONFIGURACIÓN GENERAL --- */
 body {
     background-color: #0b0e14 !important;
     color: #e0e0e0 !important;
 }
 
 h1, h2, h3, h4 {
-    color: #00f2ff !important; /* Tu color primordial */
+    color: #00f2ff !important;
 }
 
 a {
     color: #00f2ff !important;
+    text-decoration: none;
 }
 
-footer, .site-footer, .site-header {
-    display: none !important;
+html {
+    scroll-behavior: smooth;
 }
 
+/* --- ELEMENTOS DE DISEÑO --- */
 .hero-section {
     text-align: center;
     padding: 20px 0 20px 0;
-
-/* Ocultar el encabezado automático del tema Minimal */
-.page-header {
-    display: none !important;
-}
     border-bottom: 2px solid #00f2ff;
     margin-bottom: 30px;
 }
 
-/* Ocultar el encabezado redundante del tema */
-.page-header {
+/* --- OCULTAR ELEMENTOS DEL TEMA MINIMAL --- */
+/* Agrupamos todos los selectores para mayor limpieza */
+.page-header, 
+.site-header, 
+.site-footer, 
+footer, 
+.btn, 
+.btn-github {
     display: none !important;
 }
 
-/* Ocultar el encabezado automático del tema y links de GitHub */
-.page-header, .site-header, .btn {
-    display: none !important;
-}
-
-/* Ocultar los textos sobrantes que aparecen como "div>" */
-body > p:contains("div>"), body > div:contains("div>") {
-    display: none !important;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* Ocultar elementos persistentes del tema */
-.page-header, .site-header, .btn, .site-footer {
+/* Ocultar posibles residuos de texto */
+body > p:contains("div>"), 
+body > div:contains("div>") {
     display: none !important;
 }
