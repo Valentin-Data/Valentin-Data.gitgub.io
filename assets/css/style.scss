@@ -72,3 +72,9 @@ body::before {
   background: rgba(11, 14, 20, 0.85); 
   z-index: -1;
 }
+
+/* Asegurar que el contenido siempre esté sobre el video */
+main, .hero-section {
+    position: relative;
+    z-index: 1;
+}
