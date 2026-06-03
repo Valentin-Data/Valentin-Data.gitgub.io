@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<video autoplay loop muted playsinline id="background-video">
-  <source src="assets/video/videoplayback.mp4" type="video/mp4">
-</video>
-
 <div class="hero-section">
   <h1>🚀 Valentín | Data Analytics</h1>
   <div style="text-align: center;">
