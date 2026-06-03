@@ -35,9 +35,3 @@ A continuación, presento los proyectos en los que he estado trabajando para apl
 - **LinkedIn**: [linkedin.com/in/valentin-mencuchi](https://www.linkedin.com/in/valentin-mencuchi)
 - **GitHub**: [github.com/Valentin-Data](https://github.com/Valentin-Data)
 - **Email**: [analytics.valentin.mencuchi@gmail.com](mailto:analytics.valentin.mencuchi@gmail.com)
-
-## 📈 Visualización
-Se generó un gráfico de barras que permite visualizar rápidamente el estado del stock por producto.
-
----
-*Proyecto desarrollado como parte de mi formación en Análisis de Datos.*
