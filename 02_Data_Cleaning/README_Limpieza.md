@@ -1,7 +1,3 @@
----
-layout: default
-title: Analisis de Inventario
----
 # Análisis de Datos de Inventario: Limpieza y Optimización
 
 ## 📊 Descripción del Proyecto
