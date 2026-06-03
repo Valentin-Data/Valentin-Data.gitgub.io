@@ -3,4 +3,4 @@ layout: default
 ---
 # Hola, soy Valentin
 
-Soy un profesional en formacion... (el resto de tu texto)
+Soy un profesional en formación apasionado por el mundo de los datos...
