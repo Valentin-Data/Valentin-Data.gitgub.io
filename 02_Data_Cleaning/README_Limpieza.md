@@ -1,6 +1,5 @@
 ---
 layout: default
----
 title: Análisis de Inventario
 ---
 # Análisis de Datos de Inventario: Limpieza y Optimización
