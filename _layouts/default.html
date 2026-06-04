@@ -6,21 +6,29 @@
 </head>
 <body>
 
-    <video autoplay loop muted playsinline poster="assets/img/tu-imagen-de-fondo.jpg" id="background-video">
-  <source src="{{ '/assets/video/videoplayback.mp4' | absolute_url }}" type="video/mp4">
-</video>
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="{{ '/assets/video/videoplayback.mp4' | absolute_url }}" type="video/mp4">
+    </video>
 
     <main>
         {{ content }}
     </main>
 
+    <div id="chatbot" style="position: fixed; bottom: 20px; right: 20px; cursor: pointer; text-align: right; z-index: 100;">
+      <div id="chat-bubble" style="background: #00f2ff; color: #0b0e14; padding: 10px 20px; border-radius: 20px; font-weight: bold;">
+        Hola, ¿en qué te puedo ayudar?
+      </div>
+      <div id="chat-response" style="display: none; background: rgba(0,0,0,0.8); color: white; padding: 15px; margin-top: 10px; border: 1px solid #00f2ff; border-radius: 10px;">
+        Data Analytics es el proceso de analizar datos crudos para extraer información útil. Como futuro Data Analyst, mi trabajo será transformar datos en decisiones estratégicas para optimizar procesos.
+      </div>
+    </div>
+
+    <script>
+      document.getElementById('chatbot').onclick = function() {
+        var resp = document.getElementById('chat-response');
+        resp.style.display = (resp.style.display === 'none') ? 'block' : 'none';
+      };
+    </script>
+
 </body>
-
-<script>
-  document.addEventListener('touchstart', function() {
-    var video = document.getElementById('background-video');
-    video.play();
-  }, {once: true});
-</script>
-
 </html>
