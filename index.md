@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="hero-section">
-  <h1>🚀 Valentín | Data Analytics</h1>
+  <h1>🚀 Valentín | Data Analyst</h1>
   <div style="text-align: center;">
     <img src="assets/img/Data Analytics.png" alt="Valentín" style="width: 200px; border-radius: 50%; border: 3px solid #00f2ff;">
   </div>
@@ -14,5 +14,5 @@ layout: default
     <a href="contacto.html">Contacto</a>
   </nav>
     
-  <p>Especialista en formación en Análisis de Datos</p>
+  <p>Analista de Datos en formacion</p>
 </div>
