@@ -6,11 +6,11 @@ layout: default
   <button onclick="toggleMenu()" style="background: #00f2ff; border: none; padding: 10px; cursor: pointer; border-radius: 5px; font-weight: bold;">
     ☰ MENU
   </button>
-  <div id="nav-menu" style="display: none; background: rgba(11, 14, 20, 0.9); padding: 15px; margin-top: 5px; border: 1px solid #00f2ff; border-radius: 5px;">
-    <a href="#acerca" style="display: block; color: #00f2ff; margin-bottom: 10px;">Acerca de mí</a>
-    <a href="#proyectos" style="display: block; color: #00f2ff; margin-bottom: 10px;">Proyectos</a>
-    <a href="#contacto" style="display: block; color: #00f2ff;">Contacto</a>
-  </div>
+  <div id="nav-menu" style="display: none; ...">
+    <a href="javascript:void(0)" onclick="showSection('inicio')" style="...">Inicio</a>
+    <a href="javascript:void(0)" onclick="showSection('acerca')" style="...">Acerca de mí</a>
+    <a href="javascript:void(0)" onclick="showSection('proyectos')" style="...">Proyectos</a>
+    <a href="javascript:void(0)" onclick="showSection('contacto')" style="...">Contacto</a>
 </div>
 
 <script>
