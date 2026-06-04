@@ -99,3 +99,31 @@ main, .hero-section {
     position: relative;
     z-index: 1;
 }
+
+/* --- ADAPTACIÓN PARA CELULARES --- */
+@media (max-width: 768px) {
+    /* Hacer el título principal más pequeño para que no se corte */
+    h2 {
+        font-size: 1.8rem !important;
+    }
+
+    /* Ajustar los contenedores para que no toquen los bordes */
+    .hero-section, main > div {
+        width: 90% !important;
+        margin: 20px auto !important;
+        padding: 15px !important;
+    }
+
+    /* Agrandar un poco más los botones del menú para que sean fáciles de tocar */
+    .hero-section nav a {
+        font-size: 1.3rem !important;
+        display: block; /* Esto pone un link debajo de otro en lugar de uno al lado del otro */
+        margin: 10px 0 !important;
+    }
+    
+    /* Ajustar el texto de Acerca de mí / Contacto para mejor lectura */
+    p {
+        font-size: 1.1rem !important;
+        text-align: center !important;
+    }
+}
