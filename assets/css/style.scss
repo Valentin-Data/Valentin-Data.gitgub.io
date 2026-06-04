@@ -85,6 +85,15 @@ main, .hero-section {
     z-index: 1;
 }
 
+/* --- NUEVA LÓGICA DE NAVEGACIÓN (AQUÍ VA LO QUE PEDISTE) --- */
+#acerca, #proyectos, #contacto {
+    display: none !important;
+}
+
+#inicio {
+    display: flex !important;
+}
+
 /* --- ADAPTACIÓN PARA CELULARES --- */
 @media (max-width: 768px) {
     h2 { font-size: 1.8rem !important; }
