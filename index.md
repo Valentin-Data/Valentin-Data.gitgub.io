@@ -8,8 +8,8 @@ layout: default
   <a href="#contacto" style="color: #00f2ff;">Contacto</a>
 </nav>
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <img src="{{ 'assets/img/logo.png' | relative_url }}" alt="Mi Logo" style="width: 300px; max-width: 90%;">
+<div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+  <img src="{{ '/assets/img/Logo.png' | relative_url }}" alt="Mi Logo" style="width: 300px; max-width: 90%;">
 </div>
 
 <section id="acerca"><h2>Acerca de mí</h2><p>...</p></section>
