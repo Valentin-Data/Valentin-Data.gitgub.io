@@ -18,6 +18,20 @@ layout: default
     var menu = document.getElementById('nav-menu');
     menu.style.display = (menu.style.display === 'none') ? 'block' : 'none';
   }
+
+  function showSection(sectionId) {
+    // 1. Ocultamos TODAS las secciones
+    document.getElementById('inicio').style.display = 'none';
+    document.getElementById('acerca').style.display = 'none';
+    document.getElementById('proyectos').style.display = 'none';
+    document.getElementById('contacto').style.display = 'none';
+
+    // 2. Mostramos SOLO la que queremos
+    document.getElementById(sectionId).style.display = 'flex';
+    
+    // 3. Cerramos el menú
+    document.getElementById('nav-menu').style.display = 'none';
+  }
 </script>
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
@@ -27,7 +41,9 @@ layout: default
 <section id="acerca">
   <div style="max-width: 800px; background: rgba(11,14,20,0.8); padding: 30px; border-radius: 15px; border: 1px solid #00f2ff;">
     <h2>Acerca de mí</h2>
-    <p>Soy un profesional en formación apasionado por el mundo de los datos, enfocado en desarrollar habilidades sólidas para transformar información bruta en soluciones estratégicas. Cuento con una base técnica de 3 años en la carrera de Ingeniería en Sistemas...</p>
+    <p>Soy un profesional en formación apacionado por el mundo de los datos, enfocado en desarrollar habilidades sólidas          para transformar informacion bruta en soluciones estratégicas. Cuento con una base técnica de 3 años en la carrera         de Ingenieria en Sistemas, lo que me ha proporcionado una mentalidad analítica y estructurada para la resolución de        problemas.
+       Actualmente, estoy profundizando mis conocimientos en Data Analytics, motivando por el desafio de extraer valor a          partir de datos complejos, la capacidad de automatizar procesos mediante código y el impacto positivo que tiene una        visualización clara en la toma de decisiones informadas.
+    </p>
   </div>
 </section>
 
