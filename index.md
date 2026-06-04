@@ -28,6 +28,7 @@ layout: default
     resp.style.display = (resp.style.display === 'none') ? 'block' : 'none';
   };
 </script>
+
 </div>
 
 <!-- Secciones (Scroll automático) -->
