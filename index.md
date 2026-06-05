@@ -3,15 +3,23 @@ layout: default
 ---
 
 <div style="position: fixed; top: 20px; left: 20px; z-index: 1000;">
-  <button onclick="toggleMenu()" style="background: #00f2ff; border: none; padding: 10px; cursor: pointer; border-radius: 5px; font-weight: bold;">
-    ☰ MENU
-  </button>
-<div id="nav-menu" style="display: none; position: absolute; top: 60px; left: 20px; background: rgba(11, 14, 20, 0.9); padding: 15px; border: 1px solid #00f2ff; z-index: 1000;">
-    <a href="javascript:void(0)" onclick="showSection('inicio')" style="color: #00f2ff; display: block;">Inicio</a>
-    <a href="javascript:void(0)" onclick="showSection('acerca')" style="color: #00f2ff; display: block;">Acerca de mí</a>
-    <a href="javascript:void(0)" onclick="showSection('proyectos')" style="color: #00f2ff; display: block;">Proyectos</a>
-    <a href="javascript:void(0)" onclick="showSection('contacto')" style="color: #00f2ff; display: block;">Contacto</a>
+<button onclick="toggleMenu()" style="position:fixed; top:20px; left:20px; z-index:9999;">MENU</button>
+
+<div id="nav-menu">
+    <a onclick="showSection('inicio')">Inicio</a>
+    <a onclick="showSection('acerca')">Acerca de mí</a>
+    <a onclick="showSection('proyectos')">Proyectos</a>
+    <a onclick="showSection('contacto')">Contacto</a>
 </div>
+
+<section id="inicio" style="display: flex;">
+    <img src="tu_logo.png" alt="Logo">
+</section>
+
+<section id="acerca">
+    <h2>Acerca de mí</h2>
+    <p>Soy un profesional en formación...</p>
+</section>
 
 <script>
   function toggleMenu() {
