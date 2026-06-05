@@ -1,41 +1,42 @@
 ---
 ---
+/* Fondo del sitio */
+body { background-color: #0b0e14; color: #e0e0e0; margin: 0; padding: 0; overflow: hidden; font-family: sans-serif; }
 
-/* Reset básico */
-body { background-color: #0b0e14; color: #e0e0e0; margin: 0; padding: 0; font-family: sans-serif; overflow-x: hidden; }
-
-/* Contenedor principal: Centra todo en pantalla */
+/* Contenedor centralizado */
 main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
-    z-index: 1;
 }
 
-/* Las secciones están ocultas por defecto y se centran cuando aparecen */
+/* Las secciones están ocultas y centradas */
 section {
     display: none;
+    position: absolute;
     width: 80%;
     text-align: center;
-    position: absolute; /* Para que ocupen el centro del main */
+    z-index: 10;
 }
 
-/* El inicio debe verse al cargar */
-#inicio { display: flex; flex-direction: column; align-items: center; }
+/* El logo siempre centrado */
+#inicio { display: flex; justify-content: center; }
 
-/* Menú: z-index alto para que esté siempre encima */
+/* Menú flotante */
 #nav-menu {
     display: none;
     position: fixed;
-    top: 70px;
+    top: 60px;
     left: 20px;
-    background: rgba(11, 14, 20, 0.95);
-    padding: 20px;
+    background: rgba(11, 14, 20, 0.9);
+    padding: 15px;
     border: 1px solid #00f2ff;
-    z-index: 9999;
+    z-index: 100;
 }
-
 #nav-menu a { display: block; color: #00f2ff; margin: 10px 0; cursor: pointer; }
+
+/* Ajuste del botón Menú */
+button { position: fixed; top: 20px; left: 20px; z-index: 100; background: #00f2ff; border: none; padding: 10px; cursor: pointer; }
