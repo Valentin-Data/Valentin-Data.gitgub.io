@@ -33,5 +33,25 @@
   function closeChat() { document.getElementById('chat-window').style.display = 'none'; }
 </script>
 
+<script>
+  // Función para cerrar el chat cuando haces clic fuera
+  document.addEventListener('click', function(event) {
+    var chatWindow = document.getElementById('chat-window');
+    var chatBubble = document.getElementById('chat-bubble');
+    
+    // Si haces clic fuera del chat y no es la burbuja, se cierra
+    if (!chatWindow.contains(event.target) && event.target !== chatBubble) {
+      chatWindow.style.display = 'none';
+    }
+  });
+
+  // Función mejorada para abrir/cerrar
+  function openChat() {
+    var chat = document.getElementById('chat-window');
+    chat.style.display = (chat.style.display === 'block') ? 'none' : 'block';
+  }
+</script>
+    
 </body>
+    
 </html>
