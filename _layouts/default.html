@@ -29,29 +29,47 @@
 </div>
 
 <script>
-  function openChat() { document.getElementById('chat-window').style.display = 'block'; }
-  function closeChat() { document.getElementById('chat-window').style.display = 'none'; }
-</script>
+  // --- Lógica del Menú ---
+  function toggleMenu() {
+    var menu = document.getElementById('nav-menu');
+    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+  }
 
-<script>
-  // Función para cerrar el chat cuando haces clic fuera
-  document.addEventListener('click', function(event) {
-    var chatWindow = document.getElementById('chat-window');
-    var chatBubble = document.getElementById('chat-bubble');
-    
-    // Si haces clic fuera del chat y no es la burbuja, se cierra
-    if (!chatWindow.contains(event.target) && event.target !== chatBubble) {
-      chatWindow.style.display = 'none';
-    }
-  });
+  function showSection(id) {
+    // Ocultar todas las secciones
+    document.querySelectorAll('section').forEach(s => s.style.display = 'none');
+    // Mostrar la elegida
+    var target = document.getElementById(id);
+    if (target) target.style.display = 'flex';
+    // Cerrar menú
+    var menu = document.getElementById('nav-menu');
+    if (menu) menu.style.display = 'none';
+  }
 
-  // Función mejorada para abrir/cerrar
+  // --- Lógica del Chatbot ---
   function openChat() {
     var chat = document.getElementById('chat-window');
     chat.style.display = (chat.style.display === 'block') ? 'none' : 'block';
   }
-</script>
+
+  // --- Lógica de cierre al hacer clic fuera (Menú y Chat) ---
+  document.addEventListener('click', function(event) {
+    var menu = document.getElementById('nav-menu');
+    var chat = document.getElementById('chat-window');
+    var chatBubble = document.getElementById('chat-bubble');
+    var menuBtn = document.querySelector('[onclick="toggleMenu()"]');
     
+    // Cerrar menú si el clic no es en el menú ni en el botón
+    if (menu && !menu.contains(event.target) && event.target !== menuBtn) {
+        menu.style.display = 'none';
+    }
+    // Cerrar chat si el clic no es en la ventana ni en la burbuja
+    if (chat && !chat.contains(event.target) && event.target !== chatBubble) {
+        chat.style.display = 'none';
+    }
+  });
+</script>
+
 </body>
     
 </html>
